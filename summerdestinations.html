@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Summer Destinations</title>
     <link rel="Stylesheet" href="main.css" />
     <link
       rel="stylesheet"
@@ -21,20 +20,8 @@
         padding: 0;
       }
 
-      .col-lg-6 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-      }
-
-      .col-lg-6 h4 {
-        margin-bottom: 40px;
-      }
-
       .bg {
-        background-image: url("beach.jpg");
+        background-image: url("mountains.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -60,85 +47,11 @@
         top: 0;
         left: 0;
         width: 100%;
-        text-align: right;
-      }
-      .carousel-caption-box a {
-        margin-right: 10px;
-        font-size: 20px;
-        color: azure;
-        text-decoration: none;
-        padding-right: 20px;
-        position: relative;
-        z-index: 10;
-      }
-      .carousel-caption-box a:hover {
-        text-decoration: underline;
-      }
-      .code-container {
-        float: left;
-        width: 33.33%;
-        margin-right: 20px;
-        position: absolute;
-        top: 3%;
-        left: 5%;
-        z-index: 999;
-      }
-
-      .code-container .input-group {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-      }
-
-      .code-container .input-group .form-control {
-        text-align: left;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <div class="code-container">
-      <div id="emailForm">
-        <form id="emailSubmitForm">
-          <div class="input-group mb-3">
-            <input
-              type="email"
-              class="form-control"
-              id="emailInput"
-              placeholder="Email address"
-              aria-label="Email address"
-              aria-describedby="basic-addon2"
-              required
-            />
-            <div class="input-group-append">
-              <button class="btn btn-primary" type="submit">
-                Request Information
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div id="additionalField" style="display: none">
-        <form id="additionalFieldForm">
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="additionalInput"
-              placeholder="Country"
-              aria-label="Country"
-              aria-describedby="basic-addon2"
-              required
-            />
-            <div class="input-group-append">
-              <button class="btn btn-primary" id="requestInfoBtn" type="submit">
-                Submit
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
     <div class="bg"></div>
     <div
       id="carouselExampleIndicators"
@@ -167,53 +80,38 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="https://media.cntraveller.com/photos/611bf0eddb797d0116fd4eb1/master/w_1920%2Cc_limit/crete-gettyimages-608964434.jpg"
-            alt="Crete"
+            src="https://images.destination2.co.uk/hotels/superid/365074/overview.jpg"
+            alt="Jamaica"
           />
           <div class="carousel-caption-box">
-            <a href="index.html">Home</a>
-            <a href="Citybreak.html">City</a>
-            <a href="winterpage.html">Winter</a>
-            <a href="Hiking.html">Hike</a>
+            <h4>Plan your perfect summer holiday with us</h4>
           </div>
         </div>
         <div class="carousel-item">
           <img
-            src="https://media.cntraveller.com/photos/611bf0ee69410e829d87e86e/master/w_1920%2Cc_limit/gettyimages-663879100.jpg"
-            alt="Cyprus"
+            src="https://oceandrive.com/get/files/image/galleries/miami-facts-GettyImages-1202852911.jpg"
+            alt="Miami"
           />
-
           <div class="carousel-caption-box">
-            <a href="index.html">Home</a>
-            <a href="Citybreak.html">City</a>
-            <a href="winterpage.html">Winter</a>
-            <a href="Hiking.html">Hike</a>
+            <h4>Sandy beach resort in the Caribbean sun</h4>
           </div>
         </div>
         <div class="carousel-item">
           <img
-            src="https://media.cntraveller.com/photos/611bebebaac234341a894406/master/w_1920%2Cc_limit/kasbah-beldi-marrakech-morocco-conde-nast-traveller-1feb16-pr.jpg"
-            alt="Marrakech"
+            src="https://media-cdn.tripadvisor.com/media/photo-s/1c/44/aa/65/now-larimar-punta-cana.jpg"
+            alt="Dominican Republic"
           />
-
           <div class="carousel-caption-box">
-            <a href="index.html">Home</a>
-            <a href="Citybreak.html">City</a>
-            <a href="winterpage.html">Winter</a>
-            <a href="Hiking.html">Hike</a>
+            <h4>Book with us for seamless travel planning</h4>
           </div>
         </div>
         <div class="carousel-item">
           <img
-            src="https://media.cntraveller.com/photos/611bf0ed8c1b7286f1c11f18/master/w_1920%2Cc_limit/beach-at-ang-thong-national-park-thailand-gettyimages-603288536.jpg"
-            alt="Thailand"
+            src="https://thelatch.com.au/wp-content/uploads/2020/09/maldives-1.jpg"
+            alt="The maldives"
           />
-
           <div class="carousel-caption-box">
-            <a href="index.html">Home</a>
-            <a href="Citybreak.html">City</a>
-            <a href="winterpage.html">Winter</a>
-            <a href="Hiking.html">Hike</a>
+            <h4>discover the magical islands of the maldives in South Asia</h4>
           </div>
         </div>
       </div>
@@ -240,172 +138,107 @@
     <br />
     <br />
     <br />
+
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h4>Crete, Greece</h4>
-          <p>
-            As the southernmost of the Greek islands, Crete is also the hottest.
-            April makes a great shoulder season – outside of the Easter school
-            holidays, of course – with the mercury rising amiably before
-            summer’s sweltering peak. Take advantage of thinner crowds with lazy
-            days on blockbuster beaches – ordinarily packed, pink-hued Elafonisi
-            should be left in relative peace. Note that the further south you
-            go, the more likely you’ll find a truer Crete, unbothered by
-            resorts. Spectacular, rugged mountain drives thread through lazy
-            villages, where tavernas typically produce their own meat, cheese
-            and wine. You can bet on a few free rounds of house raki after the
-            meal, too. Better plan on staying the night.
-          </p>
-        </div>
-        <div class="col-lg-6">
+      <div class="row align-items-center">
+        <div class="col">
+          <h4>Montego Bay, Jamaica</h4>
           <img
-            src="https://media.cntraveller.com/photos/611bf0eddb797d0116fd4eb1/master/w_1920%2Cc_limit/crete-gettyimages-608964434.jpg"
-            alt="Crete"
+            src="https://images.destination2.co.uk/hotels/superid/365074/overview.jpg"
+            alt="Montego Bay"
             width="300"
             height="300"
           />
         </div>
+        <div class="col">
+          <p class="d-flex align-items-center justify-content-center">
+            Jamaica's most energetic city with a great tropical climate.
+            Whether you want to swept away in the rocking nightlife or looking
+            to relax on a perfect white sandy beach, there's fun for everyone.
+            Montego Bay has an amazing melting pots of culture, buzzing with local
+            authentic food, pristine beaches and diverse range of accommodation.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <br />
-    <br />
-    <br />
+      <br />
+      <br />
+      <br />
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-lg-last">
-          <h4>Cyprus</h4>
+      <div class="row align-items-center">
+        <div class="col">
+          <h4>Miami</h4>
           <img
-            src="https://media.cntraveller.com/photos/611bf0ee69410e829d87e86e/master/w_1920%2Cc_limit/gettyimages-663879100.jpg"
-            alt="Cyprus"
+            src="https://oceandrive.com/get/files/image/galleries/miami-facts-GettyImages-1202852911.jpg"
+            alt="Miami"
             width="300"
             height="300"
           />
         </div>
-        <div class="col-lg-6 order-lg-last">
-          <p>
-            Cyprus is an excellent destination for a beach holiday, or for
-            walking. This roughly beautiful and interesting island in the
-            southernmost reaches of the Mediterranean is especially wonderful in
-            springtime. It's beach weather at the coast – warm enough to swim in
-            the sea, and not yet too hot; while in the rugged interior, April is
-            the greenest month of the year, and the hillsides are bursting with
-            wonderful light and colour: wildflowers and orchids grow along the
-            pathways and fragrant herbs scent the air. .
+        <div class="col">
+          <p class="d-flex align-items-center justify-content-center">
+            Miami offers vibrant mix of sun, sand and culture from its stunning beaches
+            and turquoise waters to its buzzing nightlife and diverse cuisine,
+            Miami has something for everyone. Explore the Iconic Art Deco District,
+            indulge in watersports, or simply relax under the warm Florida sun.
           </p>
         </div>
       </div>
-    </div>
-    <br />
-    <br />
-    <br />
+      <br />
+      <br />
+      <br />
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <h4>Marrakech, Morroco</h4>
-          <p>
-            With hillsides bursting with almond blossom, the city comes alive
-            with colour, and sunlight casts ornate shadows in every sensational
-            courtyard. You can get to Marrakech without setting foot in a plane
-            or a car, though you should expect it to take a couple of days.
-            Eurostar to Paris; high-speed TGV to Barcelona; high-speed AVE to
-            Algeciras; ferry to Tangier; then, finally, a high-speed Al Boraq
-            train to Marrakech..
-          </p>
-        </div>
-        <div class="col-lg-6">
+      <div class="row align-items-center">
+        <div class="col">
+          <h4>Punta Cana, Dominican Republic</h4>
           <img
-            src="https://media.cntraveller.com/photos/611bebebaac234341a894406/master/w_1920%2Cc_limit/kasbah-beldi-marrakech-morocco-conde-nast-traveller-1feb16-pr.jpg"
-            alt="Marrakech"
+            src="https://media-cdn.tripadvisor.com/media/photo-s/1c/44/aa/65/now-larimar-punta-cana.jpg"
+            alt="Punta Cana"
             width="300"
             height="300"
           />
         </div>
+        <div class="col">
+          <p class="d-flex align-items-center justify-content-center">
+            Enjoy the tropical of Punta Cana with pristine white-sand beaches and 
+            luxurious resorts. Indulge in water sports, explore coral reefs, or 
+            simply unwind under swaying palm trees. Experience vibrant nightlife,
+            delicious cuisine, and bask in the sun. Punta Cana offers the perfect
+            blend of relaxtion and adventure.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <br />
-    <br />
-    <br />
+      <br />
+      <br />
+      <br />
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 order-lg-last">
-          <h4>Thailand</h4>
+      <div class="row align-items-center">
+        <div class="col">
+          <h4>The Maldives</h4>
           <img
-            src="https://media.cntraveller.com/photos/611bf0ed8c1b7286f1c11f18/master/w_1920%2Cc_limit/beach-at-ang-thong-national-park-thailand-gettyimages-603288536.jpg"
-            alt="Thailand"
+            src="https://thelatch.com.au/wp-content/uploads/2020/09/maldives-1.jpg"
+            alt="The Maldives"
             width="300"
             height="300"
           />
         </div>
-        <div class="col-lg-6 order-lg-last">
-          <p>
-            Thailand is a Southeast Asian country. It's known for tropical
-            beaches, opulent royal palaces, ancient ruins and ornate temples
-            displaying figures of Buddha. In Bangkok, the capital, an
-            ultramodern cityscape rises next to quiet canalside communities and
-            the iconic temples of Wat Arun, Wat Pho and the Emerald Buddha
-            Temple (Wat Phra Kaew). Nearby beach resorts include bustling
-            Pattaya and fashionable Hua Hin.
+        <div class="col">
+          <p class="d-flex align-items-center justify-content-center">
+            Experience paradise in the Maldives with luxurious resorts and picturesque 
+            beaches. Snorkel among vibrant coral reefs, indulge in sumptuous seafood,
+            and unwind with breathtaking sunsets. Immerse yourself in pure bliss,
+            where relaxtion meets adventure. A tropical getaway like no other awaits 
+            you in this idyllic Ocean destination.
           </p>
         </div>
       </div>
     </div>
-
-    <br />
-    <br />
-    <br />
-    <br />
 
     <footer>
       <p>&copy; 2023. All rights reserved.</p>
     </footer>
 
-    <script>
-      document
-        .getElementById("emailSubmitForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-          document.getElementById("emailForm").style.display = "none";
-          document.getElementById("additionalField").style.display = "block";
-        });
-
-      document
-        .getElementById("additionalFieldForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-          requestInfo();
-        });
-
-      function requestInfo() {
-        let countryInput = document.getElementById("additionalInput").value;
-        let country = countryInput.toLowerCase().trim();
-
-        if (
-          country === "england" ||
-          country === "united kingdom" ||
-          country === "wales" ||
-          country === "scotland" ||
-          country === "great britain" ||
-          country === "britain" ||
-          country === "gb" ||
-          country === "uk"
-        ) {
-          alert(
-            "You should shortly receive information from our UK based team"
-          );
-        } else {
-          alert("Our international team will be in touch shortly!");
-        }
-      }
-
-      let infoButton = document.getElementById("requestInfoBtn");
-      infoButton.addEventListener("click", requestInfo);
-    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
